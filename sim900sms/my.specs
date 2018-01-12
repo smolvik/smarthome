@@ -1,0 +1,6 @@
+%rename link_gcc_c_sequence                my_link_gcc_c_sequence
+
+
+*link_gcc_c_sequence:
+%(my_link_gcc_c_sequence) -lm
+

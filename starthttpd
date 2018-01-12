@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#MYPATH="/home/smolvik/projects/smarthome"
+MYPATH=$(pwd)
+
+/usr/local/sbin/httpd -h "$MYPATH/www" -c "$MYPATH/httpd.conf" -f -v -p 80
+
